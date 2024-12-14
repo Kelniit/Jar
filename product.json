@@ -1,0 +1,34 @@
+[
+  {
+    "PID": "1",
+    "product": "Laptop",
+    "description": "High performance laptop",
+    "quantity": 10,
+    "price": 1500,
+    "category": "Technologies"
+  },
+  {
+    "PID": "2",
+    "product": "Mouse",
+    "description": "Wireless Mouse",
+    "quantity": 50,
+    "price": 25,
+    "category": "Technologies"
+  },
+  {
+    "PID": "3",
+    "product": "Koko Shirt",
+    "description": "Baju Shalat Jumat",
+    "quantity": 50,
+    "price": 15,
+    "category": "Fashion"
+  },
+  {
+    "PID": "4",
+    "product": "Daster",
+    "description": "Baju Daster Harian",
+    "quantity": 50,
+    "price": 18,
+    "category": "Fashion"
+  }
+]
