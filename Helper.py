@@ -15,7 +15,7 @@ def FullTest(series: Times, alpha: float = 0.05) -> Tuple[bool, float]:
   Augmented Dickey Fuller Stationary Test
   """
   adf_value, p_value, used_lag, number_of_observations, critical_values, ic_best = adfuller(series)
-  stationary = p_value < alpha
+  stationary = adf_value < alpha
   return stationary, adf_value
 
 def ModelArima(train: Array, tester: int, order: Order, **kwargs: Any) -> Tuple[Array, float]:
